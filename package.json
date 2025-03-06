@@ -1,0 +1,39 @@
+{
+  "name": "hyperlink-theme",
+  "displayName": "Hyperlink Theme",
+  "description": "A dark theme with great colors for VS Code inspired by Stef Kors' Hyperlink theme for Nova editor.",
+  "version": "1.0.0",
+  "publisher": "hyperlink-theme",
+  "author": {
+    "name": "Nik Kale"
+  },
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "hyperlink",
+    "color theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Hyperlink",
+        "uiTheme": "vs-dark",
+        "path": "./theme/hyperlink-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dabbleintech/hyperlink-vscode-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/dabbleintech/hyperlink-vscode-theme/issues"
+  }
+}
