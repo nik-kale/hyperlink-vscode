@@ -31,9 +31,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dabbleintech/hyperlink-vscode-theme"
+    "url": "https://github.com/dabbleintech/hyperlink-vscode"
   },
   "bugs": {
-    "url": "https://github.com/dabbleintech/hyperlink-vscode-theme/issues"
+    "url": "https://github.com/dabbleintech/hyperlink-vscode/issues"
   }
 }
