@@ -18,8 +18,15 @@
     "theme",
     "dark theme",
     "hyperlink",
-    "color theme"
+    "color theme",
+    "vscode theme",
+    "dark",
+    "blue theme",
+    "syntax highlighting",
+    "nova",
+    "vibrant"
   ],
+  "homepage": "https://github.com/dabbleintech/hyperlink-vscode#readme",
   "icon": "extension.png",
   "galleryBanner": {
     "color": "#1C2639",

@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 💬 Questions & Discussions
+    url: https://github.com/dabbleintech/hyperlink-vscode/discussions
+    about: Ask questions and discuss ideas with the community
+  - name: 📚 Documentation
+    url: https://github.com/dabbleintech/hyperlink-vscode#readme
+    about: Read the full documentation
+  - name: 🎨 Original Theme
+    url: https://github.com/StefKors/Hyperlink-Nova-Theme
+    about: Check out the original Hyperlink theme for Nova editor

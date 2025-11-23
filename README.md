@@ -1,47 +1,161 @@
-# Hyperlink
+# Hyperlink Theme for VS Code
 
-A dark theme with great colors for VS Code inspired by Stef Kors' Hyperlink theme for Nova editor.
+<div align="center">
 
-## Features
+![Hyperlink Theme](extension-ui.png)
 
-The Hyperlink theme has been carefully converted from the original Nova editor theme to VS Code, maintaining all the original colors and styling. The theme features:
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/dabbleintech/hyperlink-vscode)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![VS Code](https://img.shields.io/badge/VS%20Code-1.60.0+-007ACC.svg)](https://code.visualstudio.com/)
 
-- A dark blue background (#1C2639) with lighter elements (#28344B)
-- Vibrant syntax highlighting with the following color palette:
-  - Yellow/Gold: #FDD46B (keywords, strings, boolean values)
-  - Cyan: #53E0FC (types, classes, HTML tags)
-  - Orange/Red: #F08261 (variables, arguments)
-  - Green: #B8E97B (functions, methods)
-  - Purple: #C67BE9 (properties)
-  - Light Gray: #A8ADB7 (comments)
-  - White: #FFFFFF (text, operators)
-- Customized UI elements that match the code styling
-- Terminal colors that complement the editor theme
+*A meticulously crafted dark theme with vibrant colors, inspired by [Stef Kors' Hyperlink theme](https://github.com/StefKors/Hyperlink-Nova-Theme) for Nova editor.*
 
-## VS Code Installation
+[Installation](#installation) • [Features](#features) • [Screenshots](#screenshots) • [Contributing](#contributing)
 
-### Manual Installation
-1. Download or clone this repository
-2. Copy the entire folder to your VS Code extensions directory:
-   - Windows: `%USERPROFILE%\.vscode\extensions`
-   - macOS: `~/.vscode/extensions`
-   - Linux: `~/.vscode/extensions`
+</div>
+
+---
+
+## ✨ Features
+
+The Hyperlink theme brings the beautiful color palette from Nova to VS Code with careful attention to detail:
+
+### 🎨 Color Palette
+
+- **Background**: Deep blue (#1C2639) with lighter elements (#28344B)
+- **Syntax Highlighting**:
+  - 🟡 **Yellow/Gold** `#FDD46B` - Keywords, strings, boolean values
+  - 🔵 **Cyan** `#53E0FC` - Types, classes, HTML tags
+  - 🟠 **Orange/Red** `#F08261` - Variables, arguments
+  - 🟢 **Green** `#B8E97B` - Functions, methods
+  - 🟣 **Purple** `#C67BE9` - Properties
+  - ⚪ **Light Gray** `#A8ADB7` - Comments
+  - ⚪ **White** `#FFFFFF` - Text, operators
+
+### 🎯 Theme Highlights
+
+- ✅ Fully customized UI elements matching the code styling
+- ✅ Terminal colors complementing the editor theme
+- ✅ Optimized for long coding sessions with reduced eye strain
+- ✅ Excellent contrast ratios for improved readability
+- ✅ Consistent color semantics across all languages
+
+---
+
+## 📦 Installation
+
+### Method 1: VS Code Marketplace (Recommended)
+
+*Coming soon to the VS Code Marketplace!*
+
+### Method 2: Install from VSIX
+
+1. Download the latest `.vsix` file from [Releases](https://github.com/dabbleintech/hyperlink-vscode/releases)
+2. Open VS Code
+3. Go to Extensions (`Ctrl+Shift+X` / `Cmd+Shift+X`)
+4. Click the `...` menu at the top of the Extensions panel
+5. Select **Install from VSIX...**
+6. Choose the downloaded `.vsix` file
+
+### Method 3: Manual Installation
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/dabbleintech/hyperlink-vscode.git
+   ```
+
+2. Copy the folder to your VS Code extensions directory:
+   - **Windows**: `%USERPROFILE%\.vscode\extensions`
+   - **macOS**: `~/.vscode/extensions`
+   - **Linux**: `~/.vscode/extensions`
+
 3. Restart VS Code
-4. Select the Hyperlink theme: `Code > Preferences > Color Theme > Hyperlink`
 
-### Building a VSIX Extension
-You can also build a VSIX extension file:
+### Activating the Theme
 
-1. Install vsce: `npm install -g @vscode/vsce`
-2. Run `vsce package` in the theme directory
-3. Install the generated .vsix file in VS Code: `Extensions > ... > Install from VSIX`
+1. Open Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`)
+2. Type `Preferences: Color Theme`
+3. Select **Hyperlink** from the list
 
-## Feedback and Contributions
+Or navigate to: `File > Preferences > Color Theme > Hyperlink`
 
-If you notice any issues or have suggestions for improvements, please open an issue or submit a pull request.
+---
 
-## License and Attribution
+## 📸 Screenshots
 
-This theme is released under the MIT License. The VS Code adaptation was created by Nik Kale.
+<div align="center">
 
-Theme colors are heavily inspired by [Stef Kors' Hyperlink theme](https://github.com/StefKors/Hyperlink-Nova-Theme) for the Nova editor.
+### Code Editor
+![Editor View](extension.png)
+
+### Full UI Experience
+![UI View](extension-ui.png)
+
+</div>
+
+---
+
+## 🛠️ Development
+
+Want to customize or build the theme yourself?
+
+### Prerequisites
+
+```bash
+npm install -g @vscode/vsce
+```
+
+### Building the Extension
+
+```bash
+# Clone the repository
+git clone https://github.com/dabbleintech/hyperlink-vscode.git
+cd hyperlink-vscode
+
+# Package the extension
+vsce package
+
+# This will generate a .vsix file
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Whether it's:
+
+- 🐛 Bug reports
+- 💡 Feature suggestions
+- 🎨 Color refinements
+- 📝 Documentation improvements
+
+Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+---
+
+## 📝 Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for a list of changes and version history.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🙏 Acknowledgments
+
+- **Original Theme**: [Hyperlink for Nova](https://github.com/StefKors/Hyperlink-Nova-Theme) by [Stef Kors](https://github.com/StefKors)
+- **Adapted for VS Code by**: [Nik Kale](https://github.com/nikkale)
+
+---
+
+<div align="center">
+
+**[⬆ back to top](#hyperlink-theme-for-vs-code)**
+
+Made with ❤️ for the VS Code community
+
+</div>
